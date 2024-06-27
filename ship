@@ -1,0 +1,11 @@
+        <label for="destination">Destination:</label>
+        <select id="destination" name="destination" required>
+            <option value="local">Local</option>
+            <option value="international">International</option>
+        </select>
+        
+        <button type="submit">Calculate Shipping</button>
+    </form>
+    <div id="result"></div>
+</div>
+<script src="script.js"></script>
